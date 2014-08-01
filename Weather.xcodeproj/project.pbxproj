@@ -19,8 +19,6 @@
 		60ADD9661989CFDB0086A6BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94E1989CFDB0086A6BC /* UIKit.framework */; };
 		60ADD96E1989CFDB0086A6BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60ADD96C1989CFDB0086A6BC /* InfoPlist.strings */; };
 		60ADD9701989CFDB0086A6BC /* WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ADD96F1989CFDB0086A6BC /* WeatherTests.m */; };
-		60ADD97B198A20520086A6BC /* LHWCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ADD97A198A20520086A6BC /* LHWCityViewController.m */; };
-		60ADDA03198B1E9D0086A6BC /* LHWWeatherDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ADDA02198B1E9D0086A6BC /* LHWWeatherDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +48,6 @@
 		60ADD96B1989CFDB0086A6BC /* WeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherTests-Info.plist"; sourceTree = "<group>"; };
 		60ADD96D1989CFDB0086A6BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60ADD96F1989CFDB0086A6BC /* WeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherTests.m; sourceTree = "<group>"; };
-		60ADD979198A20520086A6BC /* LHWCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHWCityViewController.h; sourceTree = "<group>"; };
-		60ADD97A198A20520086A6BC /* LHWCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWCityViewController.m; sourceTree = "<group>"; };
-		60ADDA01198B1E9D0086A6BC /* LHWWeatherDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHWWeatherDetailsViewController.h; sourceTree = "<group>"; };
-		60ADDA02198B1E9D0086A6BC /* LHWWeatherDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWWeatherDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +111,6 @@
 				60ADD95A1989CFDB0086A6BC /* LHWAppDelegate.m */,
 				60ADD95C1989CFDB0086A6BC /* Images.xcassets */,
 				60ADD9511989CFDB0086A6BC /* Supporting Files */,
-				60ADD979198A20520086A6BC /* LHWCityViewController.h */,
-				60ADD97A198A20520086A6BC /* LHWCityViewController.m */,
-				60ADDA01198B1E9D0086A6BC /* LHWWeatherDetailsViewController.h */,
-				60ADDA02198B1E9D0086A6BC /* LHWWeatherDetailsViewController.m */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -250,8 +240,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60ADDA03198B1E9D0086A6BC /* LHWWeatherDetailsViewController.m in Sources */,
-				60ADD97B198A20520086A6BC /* LHWCityViewController.m in Sources */,
 				60ADD95B1989CFDB0086A6BC /* LHWAppDelegate.m in Sources */,
 				60ADD9571989CFDB0086A6BC /* main.m in Sources */,
 			);
