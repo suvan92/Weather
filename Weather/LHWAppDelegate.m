@@ -12,7 +12,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
+    // Your code goes here
+    // Don't forget to assign the window a rootViewController
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
