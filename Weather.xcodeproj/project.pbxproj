@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12E6125B1C501E0F0017AB28 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E6125A1C501E0F0017AB28 /* Launch Screen.storyboard */; };
 		60ADD94B1989CFDB0086A6BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94A1989CFDB0086A6BC /* Foundation.framework */; };
 		60ADD94D1989CFDB0086A6BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94C1989CFDB0086A6BC /* CoreGraphics.framework */; };
 		60ADD94F1989CFDB0086A6BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94E1989CFDB0086A6BC /* UIKit.framework */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12E6125A1C501E0F0017AB28 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		60ADD9471989CFDB0086A6BC /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60ADD94A1989CFDB0086A6BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60ADD94C1989CFDB0086A6BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -138,6 +140,7 @@
 				AF207A4519F472D300FD95BF /* images */,
 				60ADD95C1989CFDB0086A6BC /* Images.xcassets */,
 				60ADD9511989CFDB0086A6BC /* Supporting Files */,
+				12E6125A1C501E0F0017AB28 /* Launch Screen.storyboard */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				AF207A5B19F472D300FD95BF /* rain.png in Resources */,
 				AF207A5319F472D300FD95BF /* clear-day.png in Resources */,
 				60ADD9551989CFDB0086A6BC /* InfoPlist.strings in Resources */,
+				12E6125B1C501E0F0017AB28 /* Launch Screen.storyboard in Resources */,
 				AF207A5D19F472D300FD95BF /* snow.png in Resources */,
 				AF207A5F19F472D300FD95BF /* wind.png in Resources */,
 				AF207A5519F472D300FD95BF /* cloudy-night.png in Resources */,
