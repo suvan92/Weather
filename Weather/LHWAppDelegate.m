@@ -11,19 +11,13 @@
 #import "DetailedViewController.h"
 #import "City.h"
 
-@interface LHWAppDelegate()
-
-@property (nonatomic) UITabBarController *tabBarController;
-
-@end
-
 @implementation LHWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    self.tabBarController = [[UITabBarController alloc] init];
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
     City *vancouver = [[City alloc] initWithName:@"Vancouver" temperature:13 humidity:95 weather:@"Crappy"];
     City *kobe = [[City alloc] initWithName:@"Kobe" temperature:9 humidity:74 weather:@"Cloudy"];
@@ -45,9 +39,9 @@
     
     NSArray *navigationControllers = @[vancouverNC, kobeNC, londonNC, tokyoNC, singaporerNC];
     
-    self.tabBarController.viewControllers = navigationControllers;
+    tabBarController.viewControllers = navigationControllers;
     
-    [self.window setRootViewController:self.tabBarController];
+    [self.window setRootViewController:tabBarController];
     [self.window makeKeyAndVisible];
     return YES;
 }
